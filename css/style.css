@@ -1,0 +1,215 @@
+body {
+  background-color: #efebdd;
+  position: relative;
+  color: #333333;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  color: #efebdd;
+  font-size: 30px;
+  padding: 0 100px;
+}
+.header__lists {
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+}
+.header__lists__title__link {
+  color: #efebdd
+}
+
+.contents {
+  margin: 70px auto 0 auto;
+}
+.contents__title {
+  background-color: #5f7c9e;
+  height: 80px;
+  color: #efebdd;
+  font-size: 36px;
+  font-weight: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents__title__icon {
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.contents__profiles {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 70px;
+  display: flex;
+}
+.contents__profiles__icon {
+  font-size: 150px;
+}
+.contents__profiles__text {
+  font-size: 18px;
+  margin-left: 50px;
+  line-height: 28px;
+}
+
+.contents__skills {
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contents__skills__skill {
+  width: 520px;
+  height: 500px;
+  margin: 20px 5px;
+  border-radius: 10px;
+  border: solid 5px #5f7c9e !important;
+  padding: 10px 5px
+}
+.contents__skills__skill__header__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.contents__skills__skill__header__text {
+  margin-top: 7px;
+  height: 75px;
+}
+.contents__skills__skill__discription__table {
+  margin-top: 10px;
+  width: 100%;
+}
+.contents__skills__skill__discription__table__title {
+  font-size: 26px;
+  width: 33%;
+}
+.contents__skills__skill__discription__table__text {
+  font-size: 24px;
+  text-align: center;
+  padding: 8px 0;
+}
+.contents__skills__skill__discription__table__stars {
+  font-size: 24px;
+  text-align: center;
+  padding: 8px 0;
+}
+.slill__mini {
+  height: 300px;
+}
+
+.contents__works {
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.contents__works__work {
+  width: 380px;
+  height: 500px;
+  border-radius: 10px;
+  border: solid 5px #5f7c9e !important;
+  padding: 10px
+}
+.contents__works__work__lists__name {
+  font-size: 20px;
+}
+.contents__works__work__lists__discription {
+  font-size: 14px;
+  height: 110px;
+}
+.contents__works__work__lists__development {
+  font-size: 14px;
+}
+
+@media (max-width: 1230px) {
+  .contents__skills__skill {
+    width: 480px;
+  }
+  .contents__skills__skill__discription__table__stars {
+    font-size: 20px;
+  }
+  .contents__works {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contents__works__work {
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    border: solid 5px #5f7c9e !important;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .contents__skills {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents__skills__skill {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contents__profiles__icon {
+    font-size: 120px;
+  }
+  .contents__profiles__text {
+    font-size: 14px;
+    margin-left: 50px;
+    line-height: 25px;
+  }
+  .contents__skills {
+    width: 100%;
+    padding: 10px 0px;
+    flex-direction: row;
+  }
+  .contents__works {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .contents__profiles__icon {
+    font-size: 100px;
+  }
+  .contents__profiles__text {
+    font-size: 12px;
+    margin-left: 50px;
+    line-height: 25px;
+  }
+  .contents__skills__skill {
+    width: 420px;
+  }
+  .contents__skills__skill__header__title {
+    font-size: 24px;
+  }
+  .contents__skills__skill__discription__table__title {
+    font-size: 18px;
+  }
+  .contents__skills__skill__discription__table__text {
+    font-size: 18px;
+  }
+  .contents__skills__skill__discription__table__stars {
+    font-size: 16px;
+  }
+}

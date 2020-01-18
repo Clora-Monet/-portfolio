@@ -15,13 +15,13 @@
       <div class="header">
         <ul class="header__lists">
           <li class="header__lists__title">
-            PROFILES
+            <a href="#profiles", class="header__lists__title__link">PROFILES</a>
           </li>
           <li>
-            SKILLS
+            <a href="#skills", class="header__lists__title__link">SKILLS</a>
           </li>
           <li>
-            WORKS
+            <a href="#works", class="header__lists__title__link">WORKS</a>
           </li>
         </ul>
       </div>
@@ -30,7 +30,7 @@
           <div class="contents__title__icon"> 
             <i class="fas fa-male"></i>
           </div>
-          <div class="contents__title__text"> 
+          <div id="profiles", class="contents__title__text"> 
             Profiles
           </div>
         </div>
@@ -39,17 +39,18 @@
             <i class="fas fa-user-tie"></i>
           </div>
           <div class="contents__profiles__text"> 
-            1991年生まれ、大学では物理学を専攻していました。<br>
-            前職ではプラスチック製のボトルの製造を行っていました。自分は印刷工程担当でした。<br>
+            1991年生まれ、大学では物理学を専攻していて、研究室では半導体の研究をしていました。<br>
+            前職ではプラスチック製のボトルの製造を行っていました。印刷工程担当でした。<br>
             趣味は読書と美術館で絵画を見ること、犬と遊ぶことです。<br>
-            TECH EXPERTでプログラミングを学びました。
+            統計の勉強を経て、Pythonで機械学習などを勉強していくうちに、プログラミングへの興味が深まりました。<br>
+            本格的に学ぶために、TECH EXPERTに入学しました。
           </div>
         </div>
         <div class="contents__title"> 
           <div class="contents__title__icon"> 
             <i class="fas fa-laptop-code"></i>
           </div>
-          <div class="contents__title__text"> 
+          <div id="skills", class="contents__title__text"> 
             Skills
           </div>
         </div>
@@ -57,7 +58,7 @@
           <div class="contents__skills__skill">
             <div class="contents__skills__skill__header">
               <div class="contents__skills__skill__header__title">
-                Programing
+                プログラミング
               </div>
               <div class="contents__skills__skill__header__text">
                 プログラミングスクールでHTML,CSS,JavaScript,Rubyを学びました。加えて、独学でPythonを勉強しています。
@@ -66,11 +67,23 @@
             <div class="contents__skills__skill__discription">
               <table class="contents__skills__skill__discription__table">
                 <tr>
-                  <th>Name</th>
-                  <th>Level</th>
+                  <th class="contents__skills__skill__discription__table__title">
+                    名前
+                  </th>
+                  <th class="contents__skills__skill__discription__table__title">
+                    経験年数
+                  </th>
+                  <th class="contents__skills__skill__discription__table__title">
+                    自信度
+                  </th>
                 </tr>
                 <tr>
-                  <td>HTML</td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    HTML
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    4ヶ月
+                  </td>
                   <td class="contents__skills__skill__discription__table__stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -80,10 +93,129 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>CSS</td>
-                  <td>星55555</td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    CSS
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    4ヶ月
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="contents__skills__skill__discription__table__text">
+                    JavaScript
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    4ヶ月
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="contents__skills__skill__discription__table__text">
+                    Ruby
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    4ヶ月
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="contents__skills__skill__discription__table__text">
+                    Python
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    1年半
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
                 </tr>
               </table>
+            </div>
+          </div>
+          <div class="contents__skills__skill">
+            <div class="contents__skills__skill__header">
+              <div class="contents__skills__skill__header__title">
+                フレームワーク
+              </div>
+              <div class="contents__skills__skill__header__text">
+                プログラミングスクールでRuby on Railsを学びました。加えて、数値計算を多用するアプリを作りたいと思い、PythonのDjangoを勉強しています。
+              </div>
+            </div>
+            <div class="contents__skills__skill__discription">
+              <table class="contents__skills__skill__discription__table">
+                <tr>
+                  <th class="contents__skills__skill__discription__table__title">
+                    名前
+                  </th>
+                  <th class="contents__skills__skill__discription__table__title">
+                    経験年数
+                  </th>
+                  <th class="contents__skills__skill__discription__table__title">
+                    自信度
+                  </th>
+                </tr>
+                <tr>
+                  <td class="contents__skills__skill__discription__table__text">
+                    Ruby on Rails
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    4ヶ月
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="contents__skills__skill__discription__table__text">
+                    Django
+                  </td>
+                  <td class="contents__skills__skill__discription__table__text">
+                    1ヶ月
+                  </td>
+                  <td class="contents__skills__skill__discription__table__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="contents__skills__skill__header">
+              <div class="contents__skills__skill__header__title">
+                その他
+              </div>
+              <div class="contents__skills__skill__header__text">
+                プログラミングスクールにて、GitHub、Trelloを用いてチーム開発を行いました。
+              </div>
             </div>
           </div>
         </div>
@@ -91,24 +223,65 @@
           <div class="contents__title__icon"> 
             <i class="fas fa-briefcase"></i>
           </div>
-          <div class="contents__title__text"> 
+          <div id="works", class="contents__title__text"> 
             Works
           </div>
-          <div class="contents__works">
-            <div class="contents__works__work">
-              <ul class="contents__works__work__lists">
-                <li>
-                  能率伝票をアプリケーション化しました。これはすごいアプリケーションです！！！！！！！！！
-                </li>
-                <li>
-                  開発環境: Ruby on Rails 5.0.7.2, ruby 2.5.1
-                </li>
-                <li>
-                </li>
-              </ul>
-            </div>
+        </div>
+        <div class="contents__works">
+          <div class="contents__works__work">
+            <ul class="contents__works__work__lists">
+              <li class="contents__works__work__lists__name">
+                アプリ名: WORK REPORTS
+              </li>
+              <li class="contents__works__work__lists__discription">
+                概要: <br>
+                生産数を記録するための用紙をアプリ化しました。箱番号を入力するだけで、生産数を計算し、グラフ化します。また、単回帰分析によって、生産数の推移を予測します。検索機能もついています。
+              </li>
+              <li class="contents__works__work__lists__development">
+                開発環境: Ruby on Rails 5.0.7.2, ruby 2.5.1
+              </li>
+              <li>
+                image
+              </li>
+              <li>
+                <a href="#", class="contents__works__work__lists__git">GitHub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contents__works__work">
+            <ul class="contents__works__work__lists">
+              <li class="contents__works__work__lists__name">
+                アプリ名: フリマアプリ
+              </li>
+              <li class="contents__works__work__lists__discription">
+                概要: <br>
+                5人チームでフリマアプリをコピーしました。トップページのマークアップ、商品の出品や編集、削除、一覧表示、カテゴリー検索機能を担当しました。また、オリジナル機能として、トレンド機能を実装しました。
+              </li>
+              <li class="contents__works__work__lists__development">
+                開発環境: Ruby on Rails 5.2.7.2, ruby 2.5.1
+              </li>
+              <li>
+                image
+              </li>
+              <li>
+                <a href="#", class="contents__works__work__lists__git">GitHub</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contents__works__work">
+            <ul class="contents__works__work__lists">
+              <li>
+                能率伝票をアプリケーション化しました。これはすごいアプリケーションです！！！！！！！！！
+              </li>
+              <li>
+                開発環境: Ruby on Rails 5.0.7.2, ruby 2.5.1
+              </li>
+              <li>
+              </li>
+            </ul>
           </div>
         </div>
+        
       </div>
     </body>
 </html>
